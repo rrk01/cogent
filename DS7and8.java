@@ -31,6 +31,18 @@ public class DS7and8 {
 		return a;
 	}
 	
+	public void printStack() {
+		for(int i : stack) {
+			System.out.println(i);
+		}
+	}
+	
+	public void printQueue() {
+		for(int i : queue) {
+			System.out.println(i);
+		}
+	}
+	
 	public static void main(String[] args) {
 		
 	}
